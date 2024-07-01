@@ -11,6 +11,8 @@ public class ErrorDetail {
     private String detail;
     private long timeStamp;
     private String developerMessage;
+    //this message field below is not populating only produces null
+
     private Map<String, List<ValidationError>> errors = new HashMap<String,
             List<ValidationError>>();
 
